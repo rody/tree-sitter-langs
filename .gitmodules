@@ -229,3 +229,9 @@
 	branch = master
 	update = none
 	ignore = dirty
+[submodule "repos/apex"]
+	path = repos/apex
+	url = https://github.com/aheber/tree-sitter-sfapex
+	branch = main
+	update = none
+	ignore = dirty

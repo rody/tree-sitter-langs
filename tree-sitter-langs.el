@@ -99,6 +99,7 @@ See `tree-sitter-langs-repos'."
   (dolist
       (entry (reverse
               '((agda-mode       . agda)
+		(apex-mode       . apex)
                 (sh-mode         . bash)
                 (c-mode          . c)
                 (caml-mode       . ocaml)

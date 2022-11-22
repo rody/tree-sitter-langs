@@ -160,6 +160,7 @@ git checkout."
                 ;; XXX
                 ('typescript '("typescript" ("tsx" . tsx)))
                 ('ocaml '("ocaml" ("interface" . ocaml-interface)))
+                ('apex  '("apex" ("soql" . soql) ("sosl" . sosl)))
                 (_ '("")))))))
 
 (defun tree-sitter-langs--repo-status (lang-symbol)
